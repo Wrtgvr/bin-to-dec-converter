@@ -1,3 +1,3 @@
 # Bin2Dec
 Convert binary number to decimal
-That's all
+(Link here)[https://wrtgvr.github.io/bin-to-dec-converter/]
