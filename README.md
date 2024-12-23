@@ -1,2 +1,3 @@
-# bin-to-dec-converter
- Convert binary number to decimal
+# Bin2Dec
+Convert binary number to decimal
+That's all
