@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(.425turn, #145c4d, #19411c);
+    height: 100vh;
+}
+
+#app-name-heading {
+    color: #f6f6f6;
+    text-shadow: 0 4px 12px black;
+}
+
+#converter-wrapper {
+    margin: 18px;
+    display: flex;
+    gap: 4px;
+}
+
+#swap-arrow {
+    height: 50%;
+    align-self: last baseline;
+    aspect-ratio: 1;
+    filter: drop-shadow(0 2px 1px #112c1376);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px
+}
+
+.input-container label {
+    color: #f6f6f6;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-shadow: 0 2px 8px black;
+}
+
+input {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px 2px #0d3218;
+    color: #4e4e4e;
+    font-weight: 600;
+    width: 30vw;
+    min-width: 50px;
+    max-width: 200px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+input:focus {
+    outline: none;
+}
